@@ -1,0 +1,18 @@
+# Datasets
+
+We do **not** store datasets in this repo. Use `datasets` and/or manual downloads. hugging face easily provides these datasets. 
+
+## Text
+
+- BoolQ: `load_dataset("boolq")` text only
+- ARC-Challenge: `load_dataset("ai2_arc", "ARC-Challenge")` Logic only
+- GSM8K: `load_dataset("gsm8k", "main")`   Math only
+- CodeParrot subset: `load_dataset("codeparrot/codeparrot-clean", split="train[:1500]")
+
+## Image
+- Coco Image Caption : `load_dataset("lmms-lab/COCO-Caption", split="val")
+
+## Video
+- YouCook2: load_dataset("lmms-lab/YouCook2`", split="val")
+
+
