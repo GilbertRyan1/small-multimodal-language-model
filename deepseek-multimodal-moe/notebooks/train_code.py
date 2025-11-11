@@ -21,10 +21,10 @@ from sklearn.metrics import accuracy_score
 BASE_MODEL_ID = "deepseek-ai/deepseek-moe-16b-base"
 
 # math-finetuned model (adapter) you already have
-MATH_ADAPTER_PATH = "/content/drive/MyDrive/math_gsm8k_from_logic"
+MATH_ADAPTER_PATH = "/content/drive/MyDrive/math_gsm8k_from_logic" #change the path to your path
 
 # where to save the new CODE adapter
-CODE_ADAPTER_PATH = "/content/drive/MyDrive/code_codeparrot"
+CODE_ADAPTER_PATH = "/content/drive/MyDrive/code_codeparrot"      #change the path to your path
 
 # CodeParrot dataset (clean valid split has 'content' field with code)
 CODE_DATASET_ID = "codeparrot/codeparrot-clean-valid"
