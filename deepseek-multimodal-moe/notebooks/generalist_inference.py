@@ -9,12 +9,12 @@ BASE_MODEL_ID = "deepseek-ai/deepseek-moe-16b-base"
 
 # Map modality names → your adapter dirs
 ADAPTER_PATHS = {
-    "text":  "/content/drive/MyDrive/final-adapter",              # BoolQ
-    "logic": "/content/drive/MyDrive/logic_ai2_ar/final-adapter", # ARC-Challenge
-    "math":  "/content/drive/MyDrive/math_gsm8k_from_logic",      # GSM8K
-    "code":  "/content/drive/MyDrive/code_codeparrot",            # CodeParrot subset
-    "image": "/content/drive/MyDrive/image_coco_from_code",       # COCO captions
-    "video": "/content/drive/MyDrive/video_youcook2_from_image",  # YouCook2 segments
+    "text":  "/content/drive/MyDrive/multi-modality_adapter/text_adapter",              # BoolQ
+    "logic": "/content/drive/MyDrive/multi-modality_adapter/logic_adapter", # ARC-Challenge
+    "math":  "/content/drive/MyDrive/multi-modality_adapter/math_adapter",      # GSM8K
+    "code":  "/content/drive/MyDrive/multi-modality_adapter/code_adapter",            # CodeParrot subset
+    "image": "/content/drive/MyDrive/multi-modality_adapter/image_adapter",       # COCO captions
+    "video": "/content/drive/MyDrive/multi-modality_adapter/video_adapter",  # YouCook2 segments
 }
 
 multi_model, tokenizer = build_multimodal_deepseek(
