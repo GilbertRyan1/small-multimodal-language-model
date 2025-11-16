@@ -62,7 +62,7 @@ The model uses 4 bit quantization through bitsandbytes for compatibility with st
 
 ## Loading Adapters from Google Drive
 
-Six LoRA adapters are required for inference. These are provided in a Google Drive folder:
+Six LoRA adapters are required for inference. These are provided to you seperately in a Google Drive folder:
 
 ```
 multi-modality_adapter/
