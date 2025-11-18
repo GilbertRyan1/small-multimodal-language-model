@@ -212,7 +212,13 @@ train_image.py
 train_video.py
 ```
 
----
+## Training Order
+This is the training order of each modality : text → logic → math → code → image → video
+
+Set the correct path to the previously trained adapter(For text modality, you do not have to load any previous adapter, just the base model)
+Run all cells until training completes, the pipeline saves the adapter after successful training, change the path if required.
+run the evaluation separately. 
+run the MOE routing right after evaluation. 
 
 ## Evaluation Metrics
 
@@ -233,6 +239,10 @@ Metrics include:
 ---
 
 ## MoE Routing Diagnostics
+
+```
+src/evaluation/moe_router.py
+```
 
 The MoE router monitor records expert capacity utilization and routing entropy.
 Plots and numerical data for each modality are available under:
