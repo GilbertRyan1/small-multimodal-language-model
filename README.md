@@ -272,6 +272,12 @@ This project is released under the MIT License.
 ##  Quick Start (Colab Ready)
 
 ```bash
-!git clone https://github.com/GilbertRyan1/deepseek-multimodal-moe.git
-%cd deepseek-multimodal-moe
+# Clone the top-level repo
+!git clone https://github.com/GilbertRyan1/small-multimodal-language-model.git
+
+# Go into the project subfolder
+%cd small-multimodal-language-model/deepseek-multimodal-moe
+
+# Install dependencies
 !pip install -r requirements.txt
+
