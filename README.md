@@ -215,11 +215,12 @@ train_video.py
 ## Training Order
 This is the training order of each modality : text → logic → math → code → image → video
 
-Set the correct path to the previously trained adapter(For text modality, you do not have to load any previous adapter, just the base model)
-Run all cells until training completes, the pipeline saves the adapter after successful training, change the path if required.
-run the evaluation separately. 
-run the MOE routing right after evaluation. 
+1. Set the correct path to the previously trained adapter(For text modality, you do not have to load any previous adapter, just the base model)
+2. Run all cells until training completes, the pipeline saves the adapter after successful training, change the path if required.
+3. run the evaluation separately. 
+4. run the MOE routing right after evaluation. 
 
+---
 ## Evaluation Metrics
 
 Evaluation scripts for all modalities are located in:
